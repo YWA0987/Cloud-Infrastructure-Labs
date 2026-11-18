@@ -1,0 +1,6 @@
+# Do not commit downloaded AWS credentials, environment configuration, or exported secrets
+.env
+.env.*
+*.pem
+*.key
+*credentials*
